@@ -1,0 +1,48 @@
+/* MenuBar.css */
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  margin-left: 10px;
+  height: 40px;
+}
+
+.name {
+  color: rgb(41, 197, 67);
+  margin-left: 1rem;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.menu-options {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 5%; 
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.menu-option {
+  text-decoration: none;
+  color: rgb(41, 197, 67);
+  font-size: 1.2em;
+  font-weight: 200;
+  transition: color 0.3s ease;
+  align-items: center;
+}
+
+.menu-option:hover {
+  color: #46e954;
+}
