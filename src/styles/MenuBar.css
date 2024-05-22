@@ -45,4 +45,5 @@
 
 .menu-option:hover {
   color: #46e954;
+  text-decoration: none;
 }
